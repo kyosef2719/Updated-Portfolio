@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kidus Yosef - Trade Finance & Supply Chain Executive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1a365d",
+              secondary: "#d4af37",
+              accent: "#2d3748",
+              light: "#000000",
+              dark: "#2d3748",
+              text: "#4a5568",
+            },
+          },
+        },
+      };
+    </script>
+    <script>
+      if (window.location.pathname === "/") {
+        window.location.replace("/index.html");
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      /* Custom styles for elements that need specific handling */
+      .timeline-item:nth-child(even) .timeline-content:after {
+        right: auto;
+        left: -10px;
+        border-left: none;
+        border-right: 10px solid #1a1a1a;
+      }
+
+      @media (max-width: 768px) {
+        .timeline-content:after {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-black font-sans text-gray-400 leading-relaxed">
+    <!-- Header & Navigation -->
+    <header
+      class="bg-gradient-to-br from-primary to-[#030c1b13] text-white py-4 fixed w-full top-0 z-50 shadow-lg"
+    >
+      <div class="container mx-auto px-5">
+        <nav class="flex justify-between items-center">
+          <div class="logo-container flex items-center gap-4">
+            <img
+              src="KY-logo.jpg"
+              alt="Logo"
+              class="w-12 h-12 rounded-full object-cover border-2 border-secondary"
+            />
+            <div class="logo-text text-xl font-bold">
+              Kidus <span class="text-secondary">Yosef</span>
+            </div>
+          </div>
+          <ul class="nav-links hidden md:flex list-none">
+            <li class="ml-8">
+              <a
+                href="#home"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >Home</a
+              >
+            </li>
+            <li class="ml-8">
+              <a
+                href="#logo"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >Logo</a
+              >
+            </li>
+            <li class="ml-8">
+              <a
+                href="#about"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >About</a
+              >
+            </li>
+            <li class="ml-8">
+              <a
+                href="#experience"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >Experience</a
+              >
+            </li>
+            <li class="ml-8">
+              <a
+                href="#expertise"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >Expertise</a
+              >
+            </li>
+            <li class="ml-8">
+              <a
+                href="#education"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >Education</a
+              >
+            </li>
+            <li class="ml-8">
+              <a
+                href="#contact"
+                class="text-white no-underline font-medium hover:text-secondary transition-colors"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger md:hidden cursor-pointer">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation (hidden by default) -->
+    <div
+      class="mobile-nav hidden absolute top-16 left-0 w-full bg-primary py-5 flex-col items-center z-40 md:hidden"
+    >
+      <a
+        href="#home"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >Home</a
+      >
+      <a
+        href="#logo"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >Logo</a
+      >
+      <a
+        href="#about"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >About</a
+      >
+      <a
+        href="#experience"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >Experience</a
+      >
+      <a
+        href="#expertise"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >Expertise</a
+      >
+      <a
+        href="#education"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >Education</a
+      >
+      <a
+        href="#contact"
+        class="text-white py-2 no-underline font-medium hover:text-secondary transition-colors"
+        >Contact</a
+      >
+    </div>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('KY-hero-new.jpg')] bg-contain bg-center bg-no-repeat bg-black text-white py-40 text-center relative min-h-screen flex items-center"
+    >
+      <div class="container mx-auto px-5">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Kidus Yosef Wanegnaw
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+          Trade Finance & Supply Chain Executive with 20+ Years of International
+          Experience
+        </p>
+        <a
+          href="#contact"
+          class="btn inline-block bg-secondary text-primary px-8 py-3 rounded no-underline font-semibold transition-all hover:bg-amber-500 hover:-translate-y-1 shadow-lg"
+          >Get In Touch</a
+        >
+      </div>
+    </section>
+
+    <!-- Logo Section -->
+    <section id="logo" class="logo-section bg-gray-900 py-16">
+      <div class="container mx-auto px-5">
+        <div class="section-title text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl text-primary relative inline-block pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-secondary"
+          >
+            Professional Brand
+          </h2>
+        </div>
+        <div
+          class="logo-showcase flex flex-col md:flex-row justify-center items-center gap-8"
+        >
+          <img
+            src="KY-logo.jpg"
+            alt="Professional Logo"
+            class="main-logo w-36 h-36 md:w-40 md:h-40 rounded-full object-cover border-4 border-secondary shadow-lg"
+          />
+          <div class="logo-description max-w-lg text-left md:text-left">
+            <h3 class="text-primary text-2xl mb-4">
+              Building Trust in Global Trade
+            </h3>
+            <p class="mb-4">
+              My logo represents professionalism, reliability, and global
+              connectivity in trade finance and supply chain management. It
+              reflects my commitment to excellence and building lasting
+              international partnerships.
+            </p>
+            <p>
+              With over two decades of experience, I bring trusted expertise to
+              every transaction, ensuring secure and efficient international
+              trade operations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-20">
+      <div class="container mx-auto px-5">
+        <div class="section-title text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl text-primary relative inline-block pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-secondary"
+          >
+            About Me
+          </h2>
+        </div>
+        <div
+          class="about-content flex flex-col md:flex-row items-center gap-10"
+        >
+          <div class="about-image flex-none w-full md:w-80">
+            <img
+              src="KY-about.jpg"
+              alt="Kidus Yosef"
+              class="w-full rounded-lg shadow-xl"
+            />
+          </div>
+          <div class="about-text flex-1">
+            <h3 class="text-2xl text-gray-200 mb-6">
+              Senior Professional in International Trade & Supply Chain
+              Management
+            </h3>
+            <p class="mb-4">
+              Results-driven executive with extensive experience in trade
+              finance, supply chain management, and international business
+              development. Proven track record of securing government awards,
+              implementing cost-saving strategies, and building successful
+              international partnerships.
+            </p>
+            <p class="mb-4">
+              My journey in web development began with a deep curiosity for how
+              things work, leading me to master technologies like React,
+              Next.js, Node.js, MySQL, and MongoDB. This technical expertise
+              complements my business acumen, allowing me to bridge the gap
+              between technology and international trade.
+            </p>
+            <p class="mb-6">
+              I am also a FIFA Licensed Player's Agent, combining my passion for
+              football with professional representation expertise.
+            </p>
+
+            <div class="skills flex flex-wrap gap-3 mt-6">
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Leadership & Management</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Project Planning</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Supply Chain Management</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >International Trade</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Cost Control</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Data Analysis</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Trade Finance</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Import/Export</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >React</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Next.js</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >Node.js</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >MySQL</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >MongoDB</span
+              >
+              <span
+                class="skill-tag bg-primary text-white px-4 py-2 rounded-full text-sm"
+                >FIFA Licensed Agent</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience py-20">
+      <div class="container mx-auto px-5">
+        <div class="section-title text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl text-primary relative inline-block pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-secondary"
+          >
+            Work Experience
+          </h2>
+        </div>
+        <div class="timeline relative max-w-4xl mx-auto">
+          <div
+            class="timeline-line absolute left-1/2 top-0 bottom-0 w-0.5 bg-secondary -translate-x-1/2 md:block hidden"
+          ></div>
+
+          <div
+            class="timeline-item mb-10 relative w-full md:w-1/2 pr-10 md:pr-0"
+          >
+            <div
+              class="timeline-content bg-gray-900 p-6 rounded-lg shadow-md relative text-gray-300"
+            >
+              <div class="timeline-date font-semibold text-secondary mb-2">
+                May 2024 - Present
+              </div>
+              <h3 class="timeline-title text-xl text-gray-200 mb-2">
+                Trade Finance Executive
+              </h3>
+              <h4 class="font-medium mb-3">Euro Exim Bank (Freelance)</h4>
+              <p>
+                Working as an independent sales consultant, guiding clients on
+                strategic use of Letters of Credit(LCs), Stand by Letters of
+                Credit(SBLCs), and Bank/Performance Guarantees to secure
+                international trade transactions.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item mb-10 relative w-full md:w-1/2 md:ml-1/2 pl-10 md:pl-10"
+          >
+            <div
+              class="timeline-content bg-gray-900 p-6 rounded-lg shadow-md relative text-gray-300"
+            >
+              <div class="timeline-date font-semibold text-secondary mb-2">
+                2015 - March 2024
+              </div>
+              <h3 class="timeline-title text-xl text-gray-200 mb-2">
+                Owner & Managing Director
+              </h3>
+              <h4 class="font-medium mb-3">Kidus Yosef Foreign Trade Agent</h4>
+              <p>
+                Directed business development and project management. Secured
+                international partnerships for sourcing goods and managed
+                financial and commodities deals globally.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item mb-10 relative w-full md:w-1/2 pr-10 md:pr-0"
+          >
+            <div
+              class="timeline-content bg-gray-900 p-6 rounded-lg shadow-md relative text-gray-300"
+            >
+              <div class="timeline-date font-semibold text-secondary mb-2">
+                2003 - 2015
+              </div>
+              <h3 class="timeline-title text-xl text-gray-200 mb-2">
+                Managing Director
+              </h3>
+              <h4 class="font-medium mb-3">Afro-Tibeb Business Group</h4>
+              <p>
+                Led award-winning supply chain projects for government
+                organizations. Supervised tender evaluations and ensured
+                compliance with scope, schedule, cost, and quality.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item mb-10 relative w-full md:w-1/2 md:ml-1/2 pl-10 md:pl-10"
+          >
+            <div
+              class="timeline-content bg-gray-900 p-6 rounded-lg shadow-md relative text-gray-300"
+            >
+              <div class="timeline-date font-semibold text-secondary mb-2">
+                2001 - 2003
+              </div>
+              <h3 class="timeline-title text-xl text-gray-200 mb-2">
+                Import Control Head
+              </h3>
+              <h4 class="font-medium mb-3">
+                The Motor and Engineering Company (MOENCO)
+              </h4>
+              <p>
+                Streamlined import processes, reducing costs by 15%. Maintained
+                relationships with customs, banks, and logistics partners.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item mb-10 relative w-full md:w-1/2 pr-10 md:pr-0"
+          >
+            <div
+              class="timeline-content bg-gray-900 p-6 rounded-lg shadow-md relative text-gray-300"
+            >
+              <div class="timeline-date font-semibold text-secondary mb-2">
+                1993 - 2001
+              </div>
+              <h3 class="timeline-title text-xl text-gray-200 mb-2">
+                Marketing and Foreign Purchase Officer
+              </h3>
+              <h4 class="font-medium mb-3">Siemens Pvt Ltd Co.</h4>
+              <p>
+                Saved the company millions by rerouting imports via Djibouti
+                Port during the Ethio-Eritrea war.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise py-20">
+      <div class="container mx-auto px-5">
+        <div class="section-title text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl text-primary relative inline-block pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-secondary"
+          >
+            Areas of Expertise
+          </h2>
+        </div>
+        <div
+          class="expertise-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Project Management</h3>
+            <p>
+              Developing project plans, leading teams, ensuring efficient
+              processes and on-time delivery.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-truck-loading"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Supply Chain Management</h3>
+            <p>
+              Supervisory expertise in supply chain management and negotiation
+              with proven results.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-globe-americas"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Import/Export</h3>
+            <p>
+              Extensive experience in international trade, customs, and
+              logistics management.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Cost Control</h3>
+            <p>
+              Implementing strategies that reduce operational costs while
+              maintaining quality standards.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Data Analysis</h3>
+            <p>
+              Leveraging data to drive business decisions and optimize
+              operational processes.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Trade Finance</h3>
+            <p>
+              Expert guidance on LCs, SBLCs, and Bank Guarantees for secure
+              international transactions.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">Web Development</h3>
+            <p>
+              Full-stack development with React, Next.js, Node.js, MySQL, and
+              MongoDB. Building modern web applications with cutting-edge
+              technologies.
+            </p>
+          </div>
+
+          <div
+            class="expertise-card bg-gray-900 p-6 rounded-lg text-center shadow-md transition-transform hover:-translate-y-2 text-gray-300"
+          >
+            <div class="expertise-icon text-4xl text-secondary mb-4">
+              <i class="fas fa-futbol"></i>
+            </div>
+            <h3 class="text-xl text-gray-200 mb-3">
+              FIFA Licensed Player's Agent
+            </h3>
+            <p>
+              Professional representation of football players, contract
+              negotiations, and career management in accordance with FIFA
+              regulations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education py-20">
+      <div class="container mx-auto px-5">
+        <div class="section-title text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl text-primary relative inline-block pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-secondary"
+          >
+            Education & Certifications
+          </h2>
+        </div>
+        <div
+          class="education-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <div
+            class="education-card bg-gray-900 p-6 rounded-lg shadow-md text-gray-300"
+          >
+            <h3 class="text-xl text-gray-200 mb-3">Bachelor's Degree</h3>
+            <div class="education-meta text-secondary font-semibold mb-3">
+              Political Science & International Relations
+            </div>
+            <p>Addis Ababa University | 1999</p>
+          </div>
+
+          <div
+            class="education-card bg-gray-900 p-6 rounded-lg shadow-md text-gray-300"
+          >
+            <h3 class="text-xl text-gray-200 mb-3">Diploma</h3>
+            <div class="education-meta text-secondary font-semibold mb-3">
+              Purchasing and Supplies Management
+            </div>
+            <p>Junior College of Commerce | 1989</p>
+          </div>
+
+          <div
+            class="education-card bg-gray-900 p-6 rounded-lg shadow-md text-gray-300"
+          >
+            <h3 class="text-xl text-gray-200 mb-3">
+              Professional Certification
+            </h3>
+            <div class="education-meta text-secondary font-semibold mb-3">
+              Certified International Project Manager (CIPM)
+            </div>
+            <p>American Academy of Project Management | 2013</p>
+          </div>
+
+          <div
+            class="education-card bg-gray-900 p-6 rounded-lg shadow-md text-gray-300"
+          >
+            <h3 class="text-xl text-gray-200 mb-3">FIFA License</h3>
+            <div class="education-meta text-secondary font-semibold mb-3">
+              FIFA Licensed Player's Agent
+            </div>
+            <p>FIFA | Current</p>
+          </div>
+
+          <div
+            class="education-card bg-gray-900 p-6 rounded-lg shadow-md text-gray-300 md:col-span-2 lg:col-span-1"
+          >
+            <h3 class="text-xl text-gray-200 mb-3">
+              Online Courses (2023-2025)
+            </h3>
+            <div class="education-meta text-secondary font-semibold mb-3">
+              AI & Data Analytics
+            </div>
+            <p class="text-sm">
+              • Learn to Program: The Fundamentals (University of Toronto via
+              Coursera, 2023)<br />
+              • Data Analysis Fundamentals (UDACITY 2025)<br />
+              • Artificial Intelligence Fundamentals (UDACITY 2025)<br />
+              • Everyday AI Concepts (LinkedIn Learning, 2025)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-primary text-white py-20">
+      <div class="container mx-auto px-5">
+        <div class="section-title text-center mb-12">
+          <h2
+            class="text-3xl md:text-4xl text-white relative inline-block pb-3 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-1 after:bg-secondary"
+          >
+            Contact Me
+          </h2>
+        </div>
+
+        <div
+          class="contact-info grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10"
+        >
+          <div class="contact-item flex items-center gap-4">
+            <div class="contact-icon text-2xl text-secondary">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <h3 class="text-lg">Phone/WhatsApp</h3>
+              <p>+251911244923</p>
+            </div>
+          </div>
+
+          <div class="contact-item flex items-center gap-4">
+            <div class="contact-icon text-2xl text-secondary">
+              <i class="fab fa-telegram"></i>
+            </div>
+            <div>
+              <h3 class="text-lg">Telegram</h3>
+              <p>t.me/KYosef</p>
+            </div>
+          </div>
+
+          <div class="contact-item flex items-center gap-4">
+            <div class="contact-icon text-2xl text-secondary">
+              <i class="fab fa-skype"></i>
+            </div>
+            <div>
+              <h3 class="text-lg">Skype</h3>
+              <p>kyosef27</p>
+            </div>
+          </div>
+
+          <div class="contact-item flex items-center gap-4">
+            <div class="contact-icon text-2xl text-secondary">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div>
+              <h3 class="text-lg">LinkedIn</h3>
+              <p>linkedin.com/in/kidus-yosef-cipm-0746a734</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form max-w-2xl mx-auto">
+          <div class="form-group mb-5">
+            <input
+              type="text"
+              class="form-control w-full px-4 py-3 border-none rounded bg-white/10 text-white placeholder-white/70"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group mb-5">
+            <input
+              type="email"
+              class="form-control w-full px-4 py-3 border-none rounded bg-white/10 text-white placeholder-white/70"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group mb-5">
+            <input
+              type="text"
+              class="form-control w-full px-4 py-3 border-none rounded bg-white/10 text-white placeholder-white/70"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form-group mb-5">
+            <textarea
+              class="form-control w-full px-4 py-3 border-none rounded bg-white/10 text-white placeholder-white/70 min-h-40"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="btn bg-secondary text-primary px-8 py-3 rounded font-semibold transition-all hover:bg-amber-500 hover:-translate-y-1 shadow-lg w-full"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+      <div class="container mx-auto px-5">
+        <img
+          src="KY-logo.jpg"
+          alt="Logo"
+          class="footer-logo w-20 h-20 rounded-full object-cover border-2 border-secondary mx-auto mb-5"
+        />
+        <div class="social-links flex justify-center gap-5 mb-5">
+          <a
+            href="https://www.linkedin.com/in/kidus-yosef-cipm-0746a734"
+            target="_blank"
+            class="text-white text-2xl hover:text-secondary transition-colors"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="t.me/KYosef"
+            target="_blank"
+            class="text-white text-2xl hover:text-secondary transition-colors"
+            ><i class="fab fa-telegram"></i
+          ></a>
+          <a
+            href="skype:kyosef27"
+            class="text-white text-2xl hover:text-secondary transition-colors"
+            ><i class="fab fa-skype"></i
+          ></a>
+        </div>
+        <p>&copy; 2025 Kidus Yosef Wanegnaw. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile Navigation Toggle
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".mobile-nav").classList.toggle("hidden");
+        });
+
+      // Smooth Scrolling
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: "smooth",
+            });
+
+            // Close mobile menu if open
+            document.querySelector(".mobile-nav").classList.add("hidden");
+          }
+        });
+      });
+
+      // Form Submission
+      document
+        .querySelector(".contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Thank you for your message! I will get back to you soon.");
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
